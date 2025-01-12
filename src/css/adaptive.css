@@ -4,3 +4,15 @@
         align-items: center;
     }
 }
+@media (max-width: 768px) {
+    .title__big {
+        font-size: 50px;
+        color: #fff;
+        line-height: 50px;   
+    }
+    .title__colored {
+        font-size: 31px;
+        color: #f9bf3b;
+        line-height: 31px;
+    }
+}
