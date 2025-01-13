@@ -3,6 +3,17 @@
         flex-direction: column;
         align-items: center;
     }
+    .skills__item {
+        width: 160px;
+    }
+}
+@media (max-width: 823px) {
+    .skills__box {
+        row-gap: 24px;
+    }
+    .skills__item {
+        width: 224px;
+    }
 }
 @media (max-width: 786px) {
     .title__big {

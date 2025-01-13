@@ -121,7 +121,8 @@ h2 {
 .divider {
     margin: 0 auto 14px;
     width: 217px;
-    height: 7px;
+    height: 4px;
+    border-radius: 1px;
     background-color: #f9bf3b;
 }
 
@@ -142,6 +143,7 @@ h2 {
     margin-bottom: 15px;
     width: 360px;
 }
+
 .intensive__img {
     margin-bottom: 15px;
 }
@@ -153,16 +155,19 @@ h2 {
     text-align: center;
     color: #4a4a4a;
 }
+
 .info {
     padding: 100px 0 140px;
     background-color: #0f0b0b;
 }
+
 .info h2 {
     margin-bottom: 22px;
     text-align: right;
     font-weight: 900;
     color: #f9bf3b;
 }
+
 .info__text {
     max-width: 750px;
     margin-left: auto;
@@ -174,13 +179,16 @@ h2 {
     position: relative;
     z-index: 20;
 }
+
 .info__text:not(:last-child) {
     margin-bottom: 19px;
 }
+
 .info__text:last-child {
     margin-bottom: 19px;
     font-weight: 700;
 }
+
 .info__img {
     max-width: 100%;
     position: absolute;
@@ -188,7 +196,68 @@ h2 {
     bottom: -40%;
 }
 
-.m {
+.skills {
+    padding: 80px 0 90px;
+    background: url(../img/bg/bottom_bg.jpg) center / cover no-repeat;
+}
+
+.skills h2 {
+    margin-bottom: 22px;
+    text-align: center;
+    color: #fff;
+}
+
+.skills .divider {
+    margin-bottom: 40px;
+}
+
+.skills__box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills__item {
+    width: 224px;
+    /* margin-bottom: 5px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.skills__round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    background-color: #f9bf3b;
+}
+
+.skills__descr {
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    color: #efefef;
+}
+
+.present {
+    padding: 80px 12px;
+    text-align: center;
+    background-color: #efefef;
+}
+
+.present__img {
+    margin-bottom: 80px;
+}
+
+.present__text {
+    margin-bottom: 50px;
+    font-weight: 500;
     font-size: 30px;
-    color: #f9bf3b;
+    line-height: 150%;
+    text-align: center;
+    color: #252525;
 }
