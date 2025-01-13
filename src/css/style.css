@@ -6,6 +6,7 @@ html {
     max-width: 1160px;
     padding: 0 10px;
     margin: 0 auto;
+    position: relative;
 }
 
 .btn {
@@ -45,7 +46,7 @@ html {
 .title-secondary {
     font-size: 30px;
     text-transform: uppercase;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .promo {
@@ -114,6 +115,7 @@ h2 {
 
 .intensive h2 {
     margin-bottom: 14px;
+    text-align: center;
 }
 
 .divider {
@@ -150,4 +152,38 @@ h2 {
     line-height: 131%;
     text-align: center;
     color: #4a4a4a;
+}
+.info {
+    padding: 100px 0 140px;
+    background-color: #0f0b0b;
+}
+.info h2 {
+    margin-bottom: 22px;
+    text-align: right;
+    font-weight: 900;
+    color: #f9bf3b;
+}
+.info__text {
+    max-width: 750px;
+    margin-left: auto;
+    color: #fff;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.2;
+    position: relative;
+    z-index: 20;
+}
+.info__text:not(:last-child) {
+    margin-bottom: 19px;
+}
+.info__text:last-child {
+    margin-bottom: 19px;
+    font-weight: 700;
+}
+.info__img {
+    max-width: 100%;
+    position: absolute;
+    left: 1%;
+    bottom: -40%;
 }
