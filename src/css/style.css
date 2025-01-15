@@ -261,3 +261,53 @@ h2 {
     text-align: center;
     color: #252525;
 }
+
+.finish {
+    background-color: #0F0B0B;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.finish__img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    max-width: 100%;
+}
+
+.finish__title {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.finish__date {
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f9bf3b;
+}
+
+.finish__text {
+    font-weight: 500;
+    font-size: 23px;
+    text-align: center;
+    color: #efefef;
+}
+
+.footer {
+    background-color: #1A1A1A;
+    padding: 58px 0;
+}
+
+.footer__info {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #888;
+}

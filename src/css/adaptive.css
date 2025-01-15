@@ -48,4 +48,16 @@
         margin-right: auto;
         text-align: center;
     }
+    .footer {
+        padding: 18px 0;
+    }
+    .finish__title {
+        font-size: 20px;
+    }
+    .finish__date {
+        font-size: 24px;
+    }
+    .finish__text {
+        font-size: 18px;
+    }
 }
