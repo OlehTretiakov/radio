@@ -146,6 +146,7 @@ h2 {
 
 .intensive__img {
     margin-bottom: 15px;
+    object-fit: cover;
 }
 
 .intensive__descr {
@@ -194,6 +195,7 @@ h2 {
     position: absolute;
     left: 1%;
     bottom: -40%;
+    object-fit: cover;
 }
 
 .skills {
@@ -251,6 +253,7 @@ h2 {
 
 .present__img {
     margin-bottom: 80px;
+    object-fit: cover;
 }
 
 .present__text {
@@ -273,6 +276,7 @@ h2 {
     margin: 0 auto;
     margin-bottom: 40px;
     max-width: 100%;
+    object-fit: cover;
 }
 
 .finish__title {
