@@ -1,3 +1,4 @@
+@import url(stylesheet.css);
 html {
     font-family: Roboto;
 }
@@ -310,8 +311,12 @@ h2 {
     font-weight: 300;
     font-size: 16px;
     line-height: 150%;
-    text-decoration: underline;
     text-decoration-skip-ink: none;
     text-align: center;
     color: #888;
+}
+
+.footer__info > span {
+    /* padding-bottom: 1px; */
+    border-bottom: 2px solid #888;
 }
